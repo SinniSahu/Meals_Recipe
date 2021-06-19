@@ -64,7 +64,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
               SwitchListTile(
                   title: Text('Gluten-free'),
                   value: _glutenFree,
-                  subtitle: Text('Onlu include Gluten-free meal'),
+                  subtitle: Text('Only include Gluten-free meal'),
                   onChanged: (newValue) {
                     setState(() {
                       _glutenFree = newValue;
@@ -73,7 +73,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
               SwitchListTile(
                   title: Text('Lactose-free'),
                   value: _lactoseFree,
-                  subtitle: Text('Onlu include lactose-free meal'),
+                  subtitle: Text('Only include lactose-free meal'),
                   onChanged: (newValue) {
                     setState(() {
                       _lactoseFree = newValue;
@@ -82,7 +82,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
               SwitchListTile(
                   title: Text('Vegetarian'),
                   value: _vegetarian,
-                  subtitle: Text('Onlu include vegetarian meal'),
+                  subtitle: Text('Only include vegetarian meal'),
                   onChanged: (newValue) {
                     setState(() {
                       _vegetarian = newValue;
@@ -91,7 +91,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
               SwitchListTile(
                   title: Text('Vegan'),
                   value: _vegan,
-                  subtitle: Text('Onlu include Vegan meal'),
+                  subtitle: Text('Only include Vegan meal'),
                   onChanged: (newValue) {
                     setState(() {
                       _vegan = newValue;
